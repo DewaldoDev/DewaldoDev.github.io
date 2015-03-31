@@ -1,0 +1,13 @@
+#playArea {
+	float: left;
+}
+
+#instruction {
+	font-family: monospace;
+	color: #00FF00;
+	text-indent: 7px;
+
+	
+	border: 5px dashed lime;
+	background: black;
+}
