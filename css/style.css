@@ -1,0 +1,177 @@
+html {
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important
+}
+body {
+    margin: 0
+}
+#header {
+    position: relative;
+    margin: 2% auto 0
+}
+#navigation {
+    height: 25px;
+    width: 70%;
+    margin: 0 auto
+}
+#navigation ul li {
+    width: auto;
+    float: left;
+    display: inline;
+    margin-left: 40px
+}
+#navigation li a {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #111;
+    text-decoration: none
+}
+#navigation li a:hover {
+    font-weight: bold;
+}
+.logo {
+    width: 60px;
+    height: 25px;
+    background: url(../img/logo.svg) no-repeat;
+    background-size: 60px 25px;
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+    float: left
+}
+.animate {
+    -webkit-animation-name: animate;
+    animation-name: animate
+}
+@-webkit-keyframes animate {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-40px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+}
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+.navigation {
+    float: right;
+    margin: 0 auto;
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s
+}
+#hero {
+    width: 70%;
+    position: relative;
+    margin: 40px auto 0;
+
+}
+.big_logo {
+	height: 160px;
+	width: 450px;
+	display: block;
+	margin: auto;
+}
+.big_logo_text {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 200px;
+    text-align: left;
+    fill: #FFFFFF;
+    stroke: #000000;
+    stroke-width: 3px;
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+  	animation: dash 2.5s linear forwards;
+
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    text-align: left;
+    color: #111;
+    margin-top: 20px;
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s
+}
+.subtitle {
+    color: #666;
+    text-align: left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px;
+    max-width: 1000px;
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 2.3s;
+    animation-delay: 2.3s
+}
+#portfolio {
+	background-color: #000000;
+    width: 100%;
+    position: relative;
+    margin: 150px auto 0
+}
+.portfolio_header {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: left;
+    color: #FFF;
+    margin: 20px;
+}
+.container {
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.galleryItem {
+    color: #FFF;
+    font: 10px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    float: left;
+
+    width: 21%;
+    margin:  2% 2% 50px 2%; 
+}
+ 
+.galleryItem h3 {
+    text-transform: uppercase;
+}
+ 
+.galleryItem img {
+    max-width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
