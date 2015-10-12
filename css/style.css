@@ -114,8 +114,8 @@ body {
     text-align: left;
     color: #111;
     margin-top: 20px;
-    -webkit-animation-duration: .9s;
-    animation-duration: .9s;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-delay: 2.0s;
@@ -130,8 +130,8 @@ body {
     line-height: 28px;
     margin: 20px;
     max-width: 1000px;
-    -webkit-animation-duration: .9s;
-    animation-duration: .9s;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-delay: 2.3s;
@@ -174,4 +174,21 @@ body {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+}
+#contact {
+    width: 70%;
+    position: relative;
+    margin: 60px auto 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: right;
+    color: #111;
+    text-decoration: none
+}
+#contact a {
+    margin: 20px auto 0;
+    text-decoration: none;
+}
+#contact a:hover {
+    font-weight: bold;
 }
