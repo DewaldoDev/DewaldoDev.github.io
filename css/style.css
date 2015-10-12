@@ -21,7 +21,7 @@ body {
     margin-left: 40px
 }
 #navigation li a {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     text-align: left;
     color: #111;
@@ -90,7 +90,7 @@ body {
 	margin: auto;
 }
 .big_logo_text {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 800;
     font-size: 200px;
     text-align: left;
@@ -108,7 +108,7 @@ body {
   }
 }
 .title {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 72px;
     text-align: left;
@@ -124,7 +124,7 @@ body {
 .subtitle {
     color: #666;
     text-align: left;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -144,7 +144,7 @@ body {
     margin: 150px auto 0
 }
 .portfolio_header {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 500;
     font-size: 50px;
     text-align: left;
@@ -158,7 +158,7 @@ body {
 }
 .galleryItem {
     color: #FFF;
-    font: 10px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: 10px/1.5 'Helvetica Neue', Helvetica, sans-serif;
     float: left;
 
     width: 21%;
@@ -179,7 +179,7 @@ body {
     width: 70%;
     position: relative;
     margin: 60px auto 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     text-align: right;
     color: #111;
