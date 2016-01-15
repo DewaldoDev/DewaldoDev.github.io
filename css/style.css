@@ -162,18 +162,23 @@ body {
     float: left;
 
     width: 21%;
-    margin:  2% 2% 50px 2%; 
+    margin:  2% 2% 50px 2%;
 }
- 
+
 .galleryItem h3 {
     text-transform: uppercase;
 }
- 
+
 .galleryItem img {
     max-width: 100%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+}
+
+.project-thumbnail {
+    width: 500px;
+    height: auto;
 }
 #contact {
     width: 70%;
