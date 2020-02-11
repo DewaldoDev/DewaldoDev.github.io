@@ -8,6 +8,15 @@
     />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <style type="text/css"></style>
+    <script>
+      document.addEventListener("pf_jukebox_loaded", function() {
+        console.log(
+          "JUKEBOX LOADED!",
+          window.pfConsentStatus,
+          window.pfCookieResponse
+        );
+      });
+    </script>
   </head>
   <body>
     <div id="header">
